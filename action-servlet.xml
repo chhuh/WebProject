@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="login" class="web.controller.LoginController"></bean>
+	<bean id="memberInsert" class="web.controller.MemberInsertController"></bean>
+	<bean id="noticeRefresh" class="web.controller.NoticeRefreshController"></bean>
+	<bean id="logOut" class="web.controller.LogOutController"></bean>
+	<bean id="memberInfo" class="web.controller.MemberInfoController"></bean>
+	<bean id="memberModify" class="web.controller.MemberModifyController"></bean>
+	<bean id="memberDelete" class="web.controller.MemberDeleteController"></bean>
+	
+</beans>
